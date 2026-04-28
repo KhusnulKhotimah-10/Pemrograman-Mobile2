@@ -1,0 +1,145 @@
+import '../models/recipe_model.dart';
+
+class RecipeData {
+  static List<Recipe> getRecipes() {
+    return [
+      Recipe(
+        id: '1',
+        name: 'Ayam Goreng Bumbu Kuning',
+        ingredients: ['Ayam', 'Bawang', 'Kunyit', 'Ketumbar', 'Garam'],
+        steps: [
+          'Cuci bersih ayam dan potong sesuai selera',
+          'Haluskan bawang, kunyit, dan ketumbar',
+          'Lumuri ayam dengan bumbu halus dan garam',
+          'Diamkan 15-30 menit',
+          'Goreng ayam hingga matang kecoklatan',
+          'Sajikan dengan nasi hangat',
+        ],
+        cookingTime: 45,
+        difficulty: 'Mudah',
+      ),
+      Recipe(
+        id: '2',
+        name: 'Ayam Kecap Pedas',
+        ingredients: ['Ayam', 'Bawang', 'Cabai', 'Kecap', 'Tomat'],
+        steps: [
+          'Tumis bawang dan cabai hingga harum',
+          'Masukkan ayam, masak hingga berubah warna',
+          'Tambahkan kecap dan sedikit air',
+          'Masukkan potongan tomat',
+          'Masak hingga bumbu meresap dan ayam matang',
+          'Sajikan hangat',
+        ],
+        cookingTime: 30,
+        difficulty: 'Sedang',
+      ),
+      Recipe(
+        id: '3',
+        name: 'Ayam Mentega',
+        ingredients: ['Ayam', 'Bawang', 'Mentega', 'Kecap', 'Bawang Bombay'],
+        steps: [
+          'Goreng ayam setengah matang',
+          'Tumis bawang bombay dengan mentega',
+          'Masukkan ayam, kecap, dan bumbu lainnya',
+          'Masak hingga bumbu meresap',
+          'Sajikan dengan taburan bawang goreng',
+        ],
+        cookingTime: 35,
+        difficulty: 'Sedang',
+      ),
+      Recipe(
+        id: '4',
+        name: 'Telur Dadar Ayam',
+        ingredients: ['Ayam', 'Telur', 'Bawang', 'Cabai'],
+        steps: [
+          'Potong kecil daging ayam',
+          'Kocok telur dengan bawang dan cabai',
+          'Campurkan ayam ke dalam kocokan telur',
+          'Goreng dadar hingga matang kedua sisi',
+          'Sajikan dengan saus sambal',
+        ],
+        cookingTime: 20,
+        difficulty: 'Mudah',
+      ),
+      Recipe(
+        id: '5',
+        name: 'Ayam Rica-Rica',
+        ingredients: ['Ayam', 'Cabai', 'Bawang', 'Tomat'],
+        steps: [
+          'Haluskan cabai dan bawang',
+          'Tumis bumbu halus hingga harum',
+          'Masukkan ayam, masak hingga berubah warna',
+          'Tambahkan potongan tomat',
+          'Masak hingga ayam matang dan bumbu meresap',
+          'Sajikan dengan daun kemangi',
+        ],
+        cookingTime: 40,
+        difficulty: 'Sulit',
+      ),
+      Recipe(
+        id: '6',
+        name: 'Ayam Bakar Madu',
+        ingredients: ['Ayam', 'Kecap', 'Madu', 'Bawang', 'Mentega'],
+        steps: [
+          'Lumuri ayam dengan kecap, madu, dan bawang halus',
+          'Diamkan 30 menit',
+          'Bakar ayam sambil dioles sisa bumbu',
+          'Sajikan dengan sambal',
+        ],
+        cookingTime: 50,
+        difficulty: 'Sedang',
+      ),
+      Recipe(
+        id: '7',
+        name: 'Ayam Pop',
+        ingredients: ['Ayam', 'Bawang', 'Jeruk Nipis', 'Garam'],
+        steps: [
+          'Rebus ayam dengan air jeruk dan garam hingga matang',
+          'Goreng sebentar dalam minyak panas',
+          'Sajikan dengan sambal dan daun singkong',
+        ],
+        cookingTime: 35,
+        difficulty: 'Mudah',
+      ),
+      Recipe(
+        id: '8',
+        name: 'Ayam Taliwang',
+        ingredients: ['Ayam', 'Cabai', 'Bawang', 'Tomat', 'Terasi'],
+        steps: [
+          'Haluskan cabai, bawang, tomat, terasi',
+          'Lumuri ayam dengan bumbu',
+          'Panggang ayam hingga matang',
+          'Sajikan dengan plecing kangkung',
+        ],
+        cookingTime: 55,
+        difficulty: 'Sulit',
+      ),
+      Recipe(
+        id: '9',
+        name: 'Ayam Suwir Bali',
+        ingredients: ['Ayam', 'Cabai', 'Bawang', 'Daun Jeruk'],
+        steps: [
+          'Rebus ayam hingga matang, suwir-suwir',
+          'Tumis bumbu halus hingga harum',
+          'Masukkan ayam suwir, aduk rata',
+          'Tambahkan daun jeruk, masak hingga bumbu meresap',
+        ],
+        cookingTime: 40,
+        difficulty: 'Sedang',
+      ),
+      Recipe(
+        id: '10',
+        name: 'Ayam Betutu',
+        ingredients: ['Ayam', 'Bawang', 'Cabai', 'Kencur', 'Kunyit', 'Jahe'],
+        steps: [
+          'Haluskan semua bumbu',
+          'Lumuri ayam dengan bumbu hingga merata',
+          'Bungkus ayam dengan daun pisang',
+          'Kukus atau panggang hingga matang',
+        ],
+        cookingTime: 90,
+        difficulty: 'Sulit',
+      ),
+    ];
+  }
+}
